@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Freehold Colony Lending — GS Credit Solutions</title>
+  <meta name="description" content="Business lending and balance transfer solutions for Freehold Colony homeowners — home loan, LAP balance transfer, fast approvals." />
+  <style>
+    :root{--accent:#0b76ef;--bg:#f7fafc;--card:#ffffff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#0f172a}
+    .container{max-width:1100px;margin:30px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav a{margin-left:18px;text-decoration:none;color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:28px}
+    .card{background:var(--card);padding:22px;border-radius:14px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    h1{font-size:28px;margin:0 0 12px}
+    p.lead{color:var(--muted);margin:0 0 18px}
+    .cta{display:flex;gap:12px}
+    .btn{background:var(--accent);color:white;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:600}
+    .ghost{background:transparent;border:1px solid #e6eefc;padding:12px 16px;border-radius:10px;color:var(--accent);text-decoration:none}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+    .feature{padding:14px;border-radius:10px;background:linear-gradient(180deg,rgba(11,118,239,0.04),transparent)}
+    .columns{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+    .problems{display:grid;gap:12px}
+    .problem{display:flex;gap:12px;align-items:flex-start}
+    .bullet{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:6px}
+    footer{margin-top:36px;color:var(--muted);font-size:14px;text-align:center}
+    label{display:block;font-weight:600;margin-bottom:6px}
+    input,textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc;background:white}
+    textarea{min-height:110px}
+    .contact-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .process{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+    .step{padding:12px;border-radius:10px;background:#f1f7ff;border-left:4px solid var(--accent)}
+    .testimonials{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .faq{margin-top:12px}
+    .faq-item{padding:12px;border-radius:10px;background:#fff;border:1px solid #eef6ff}
+    /* Reels & template area */
+    .reels-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+    .reel-card{border-radius:10px;overflow:hidden;background:#fff;border:1px solid #eef6ff}
+    .reel-thumb{height:180px;background:#e9f4ff;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)}
+    .reel-meta{padding:12px}
+    .templates{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .tpl{padding:10px 12px;border-radius:10px;background:#fff;border:1px solid #eef6ff;text-decoration:none;color:var(--accent);font-weight:600}
+    .intro{display:flex;gap:16px;align-items:center}
+    .intro img{width:120px;height:120px;border-radius:12px;object-fit:cover;border:3px solid #fff;box-shadow:0 6px 18px rgba(11,118,239,0.12)}
+    .north-images{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+    .north-images img{width:100%;height:90px;object-fit:cover;border-radius:8px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.features{grid-template-columns:1fr}.columns{grid-template-columns:1fr}.contact-row{grid-template-columns:1fr}.testimonials{grid-template-columns:1fr}.reels-grid{grid-template-columns:1fr}.templates{flex-direction:column}.north-images{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">GS</div>
+        <div>
+          <div style="font-weight:700">GS Credit Solutions</div>
+          <div style="font-size:13px;color:var(--muted)">Freehold Colony Lending — Home Loan & LAP BT specialists</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#problems">Problems</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#reels">Reels</a>
+        <a href="#templates">Templates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Intro with founder photo (placeholder) -->
+    <section id="about" style="margin-top:18px">
+      <div class="card intro">
+        <!-- Replace 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABh...' with your real photo file name after upload -->
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABh/9sAQwACAQEBAQECAQEBAgICAgQDAgICAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAQMDAwMDAwMDAwMDAwMDAwMDAwMD/9sAQwECAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/wAARCAEAAQADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8cX//2Q==" alt="Gaurav Sharma — Founder" id="founder-photo" />
+        <div>
+          <h3 style="margin:0">Meet Gaurav Sharma</h3>
+          <p style="color:var(--muted);margin-top:6px">Founder, GS Credit Solutions. I specialise in helping Freehold Colony homeowners get better home loan and LAP offers — even in difficult title or documentation situations. Reach me on WhatsApp or email for a free assessment.</p>
+          <div style="margin-top:8px"><strong>Email:</strong> HOTNATER4U@GMAIL.COM</div>
+          <div style="margin-top:4px"><strong>Phone/WhatsApp:</strong> +91 9716047049</div>
+          <div style="margin-top:6px;color:var(--muted)"><strong>Location:</strong> Delhi NCR</div>
+        </div>
+      </div>
+
+      <!-- North Indian image gallery (placeholders) -->
+      <div style="margin-top:12px">
+        <h4 style="margin:6px 0">Representative images (North India)</h4>
+        <div class="north-images">
+          <img src="images/north1.jpg" alt="North India image 1" />
+          <img src="images/north2.jpg" alt="North India image 2" />
+          <img src="images/north3.jpg" alt="North India image 3" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Rest of page kept same — placeholders for email/phone/whatsapp present and ready to be updated -->
+
+    <section class="hero" id="home" style="margin-top:18px">
+      <div>
+        <div class="card">
+          <h1>Freehold Colony Lending — Smart, fast lending for homeowners</h1>
+          <div style="margin-top:12px;margin-bottom:12px"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABh/9sAQwACAQEBAQECAQEBAgICAgQDAgICAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAQMDAwMDAwMDAwMDAwMDAwMDAwMD/9sAQwECAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/wAARCAEAAQADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8cX//2Q==" alt="Gaurav small" style="width:110px;height:110px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;"/></div>
+          <p class="lead">Specialised loan solutions for residents of freehold colonies: Home loan transfers, LAP balance transfer (BT), and tailored lending when traditional banks say no.</p>
+
+          <div class="cta">
+            <a class="btn" href="#contact">Get a free assessment</a>
+            <a class="ghost" href="#reels">Watch reels</a>
+          </div>
+
+          <div class="features">
+            <div class="feature"><strong>Home Loan BT</strong><div style="color:var(--muted);margin-top:6px">Lower EMI, better interest rates</div></div>
+            <div class="feature"><strong>LAP Balance Transfer</strong><div style="color:var(--muted);margin-top:6px">Reduce interest on Home-Equity loans</div></div>
+            <div class="feature"><strong>Non-standard cases</strong><div style="color:var(--muted);margin-top:6px">Self-employed, low CIBIL, missing docs</div></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <h3 style="margin-top:0">Quick Quote</h3>
+          <form action="mailto:HOTNATER4U@GMAIL.COM" method="post" enctype="text/plain">
+            <label for="name">Full name</label>
+            <input id="name" name="name" placeholder="Your name" required />
+
+            <label for="phone" style="margin-top:10px">Phone or WhatsApp</label>
+            <input id="phone" name="phone" placeholder="+91 9716047049" required />
+
+            <label for="type" style="margin-top:10px">I need help with</label>
+            <select id="type" name="type">
+              <option>Home Loan Balance Transfer</option>
+              <option>LAP Balance Transfer</option>
+              <option>New home loan</option>
+              <option>Documentation & eligibility help</option>
+            </select>
+
+            <label for="message" style="margin-top:10px">Brief details</label>
+            <textarea id="message" name="message" placeholder="Loan amount, lender, any concerns"></textarea>
+
+            <div style="margin-top:12px;display:flex;gap:8px">
+              <button class="btn" type="submit">Send</button>
+              <a class="ghost" href="https://wa.me/919716047049" target="_blank">Chat on WhatsApp</a>
+            </div>
+          </form>
+
+          <div style="margin-top:14px;color:var(--muted);font-size:13px">Or email us at <a href="mailto:HOTNATER4U@GMAIL.COM">HOTNATER4U@GMAIL.COM</a></div>
+        </div>
+
+        <div style="height:18px"></div>
+        <div class="card">
+          <h4 style="margin:0">Focused Services</h4>
+          <ul style="color:var(--muted);margin-top:10px">
+            <li><strong>Home loan balance transfer</strong> — negotiate lower rate & consolidate EMIs</li>
+            <li><strong>LAP (Loan Against Property) balance transfer</strong> — switch LAP to lower-cost lenders</li>
+            <li><strong>Title & documentation support</strong> — handle colony-specific checks</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- problems, solutions, reels, templates, process, testimonials, faq, contact, footer sections remain unchanged but now include your contact details above -->
+
+    <section id="problems" style="margin-top:20px" >
+  <div class="card">
+    <h3>Common Problems Faced by Freehold Colony Homeowners</h3>
+    <div class="problems" style="margin-top:12px">
+      <div class="problem"><div class="bullet"></div><div><strong>Bank rejects loans due to title issues</strong><div style="color:var(--muted);margin-top:6px">Colony titles are often unclear or partially registered.</div></div></div>
+      <div class="problem"><div class="bullet"></div><div><strong>High interest rate on existing loan</strong><div style="color:var(--muted);margin-top:6px">Many borrowers are stuck at 10–14% interest.</div></div></div>
+      <div class="problem"><div class="bullet"></div><div><strong>Low CIBIL or missing income proof</strong><div style="color:var(--muted);margin-top:6px">Self‑employed profiles struggle to get approvals.</div></div></div>
+      <div class="problem"><div class="bullet"></div><div><strong>Multiple loans causing EMI burden</strong><div style="color:var(--muted);margin-top:6px">Home loan + LAP creates high monthly stress.</div></div></div>
+      <div class="problem"><div class="bullet"></div><div><strong>Encumbrance & property dispute issues</strong><div style="color:var(--muted);margin-top:6px">Boundary disputes or old liens delay approvals.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="solutions" style="margin-top:20px">
+  <div class="card">
+    <h3>How GS Credit Provides Solutions</h3>
+    <div class="columns" style="margin-top:12px">
+      <div>
+        <h4>1. Title Verification & Documentation Help</h4>
+        <p style="color:var(--muted)">We clean, structure, and prepare colony title documents so lenders comfortably approve loans.</p>
+
+        <h4 style="margin-top:12px">2. Home Loan Balance Transfer</h4>
+        <p style="color:var(--muted)">Reduce EMI by shifting to lower interest lenders with our negotiation support.</p>
+
+        <h4 style="margin-top:12px">3. LAP Balance Transfer</h4>
+        <p style="color:var(--muted)">Switch high‑interest LAP to better lenders and reduce EMI significantly.</p>
+      </div>
+
+      <div>
+        <h4>4. Low CIBIL / Self‑Employed Solutions</h4>
+        <p style="color:var(--muted)">Alternate income proofs, co‑applicant strategies, and lender‑specific structuring.</p>
+
+        <h4 style="margin-top:12px">5. EMI Consolidation</h4>
+        <p style="color:var(--muted)">Merge multiple loans into one structured loan for smoother repayment.</p>
+
+        <h4 style="margin-top:12px">6. Full Loan File Presentation</h4>
+        <p style="color:var(--muted)">We present your case directly to lenders in a professional, approval‑ready format.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="margin-top:18px">
+      <div class="card">
+        <h3>Ready to lower your EMI or transfer LAP?</h3>
+        <p class="lead">Fill the form and we’ll call you with a free savings estimate.</p>
+        <form action="mailto:HOTNATER4U@GMAIL.COM" method="post" enctype="text/plain">
+          <div class="contact-row">
+            <div>
+              <label for="fullname">Full name</label>
+              <input id="fullname" name="fullname" required />
+            </div>
+            <div>
+              <label for="phone">Phone / WhatsApp</label>
+              <input id="phone" name="phone" placeholder="+91 9716047049" required />
+            </div>
+          </div>
+
+          <label style="margin-top:8px">Current lender & outstanding amount</label>
+          <input name="lender_info" placeholder="Bank name, ₹ amount" />
+
+          <label style="margin-top:8px">Which service?</label>
+          <select name="service">
+            <option>Home Loan Balance Transfer</option>
+            <option>LAP Balance Transfer</option>
+            <option>New loan / Top-up</option>
+          </select>
+
+          <label style="margin-top:8px">Message / Important notes</label>
+          <textarea name="contact_message" placeholder="Any special notes about title / docs / timeline"></textarea>
+
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <button class="btn" type="submit">Get free consultation (worth 5000)</button>
+            <a class="ghost" href="https://wa.me/919716047049" target="_blank">Chat on WhatsApp</a>
+          </div>
+        </form>
+
+        <div style="margin-top:14px;color:var(--muted);font-size:13px">Prefer email? <a href="mailto:HOTNATER4U@GMAIL.COM">HOTNATER4U@GMAIL.COM</a></div>
+        <div style="margin-top:6px;color:var(--muted);font-size:13px"><strong>Location:</strong> Delhi NCR</div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> GS Credit Solutions — Freehold Colony Lending
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
